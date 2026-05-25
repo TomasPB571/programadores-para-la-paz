@@ -1,0 +1,8 @@
+cd desktop
+cls
+mkdir semana2
+echo. > preguntas-semana2.txt
+echo. > comandos-terminal.txt
+echo. > reflexion-semana2.txt
+cls
+exit 
