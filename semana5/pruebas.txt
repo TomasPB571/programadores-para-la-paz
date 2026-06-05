@@ -1,0 +1,12 @@
+Ruta http://localhost:3000
+El servidor responde con el texto "Servidor activo". Es la ruta principal
+que confirma que el servidor está funcionando correctamente.
+
+Ruta http://localhost:3000/saludo
+El servidor responde con el texto "Hola comunidad". Es una ruta fija
+que siempre devuelve el mismo mensaje.
+
+Ruta http://localhost:3000/mensaje/juan
+El servidor responde con "Hola juan". Esta ruta usa un parámetro dinámico
+llamado :nombre, por lo que si se cambia juan por cualquier otro nombre
+en la URL, el servidor responderá con ese nombre.

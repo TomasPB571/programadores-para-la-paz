@@ -1,0 +1,17 @@
+Las APIs permiten que diferentes sistemas intercambien información de
+forma ordenada y eficiente. En el contexto comunitario, esto representa
+una herramienta muy poderosa para mejorar la comunicación entre
+habitantes, líderes y autoridades.Por ejemplo, una comunidad podría tener una aplicación donde los
+vecinos reporten alertas de seguridad, daños en infraestructura o
+emergencias. A través de una API, esos reportes llegarían de forma
+estructurada a quienes deben atenderlos, sin importar si usan
+diferentes dispositivos o plataformas.
+
+También podrían usarse para compartir información útil como horarios
+de servicios, noticias del barrio o convocatorias. Al tener todo
+centralizado en un servidor con rutas bien definidas, la información
+fluye de manera confiable y transparente.
+
+En resumen, las APIs ayudan a que las comunidades dejen de depender
+de métodos informales como grupos de WhatsApp y pasen a tener sistemas
+más organizados, seguros y escalables para comunicarse.

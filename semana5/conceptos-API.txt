@@ -1,0 +1,11 @@
+La ruta POST /reporte recibe datos enviados por el usuario en el cuerpo
+de la solicitud (req.body), específicamente un campo llamado "mensaje".
+El servidor lo procesa y responde con un objeto JSON que confirma que
+el reporte fue recibido, junto con el mensaje que se envió.
+
+En una aplicación comunitaria esta ruta podría servir para que los
+habitantes de un barrio envíen reportes de problemas como daños en
+vías, fallas en el alumbrado público o situaciones de riesgo. Cada
+reporte llegaría al servidor de forma organizada y podría guardarse
+en una base de datos para que las autoridades o líderes comunitarios
+lo revisen y actúen.
