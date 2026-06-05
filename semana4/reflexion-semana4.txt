@@ -1,0 +1,14 @@
+Esta semana aprendí qué es Node.js y cómo permite ejecutar JavaScript 
+fuera del navegador, directamente en el servidor. También aprendí a 
+inicializar un proyecto con npm init y a instalar dependencias como 
+Express usando npm install.
+
+Lo más interesante fue crear mi primer servidor web con Express y ver 
+cómo responde cuando accedo a una URL desde el navegador. Entendí que 
+las rutas definen qué hace el servidor según la dirección que el usuario 
+visita.
+
+Al principio fue un poco confuso entender la diferencia entre el cliente 
+y el servidor, pero con la práctica quedó más claro. Me parece muy útil 
+saber que con pocas líneas de código se puede levantar un servidor 
+funcional.
