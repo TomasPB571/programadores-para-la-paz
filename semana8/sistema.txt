@@ -1,0 +1,5 @@
+uname -a muestra: nombre del sistema operativo, nombre del equipo en la red, versión del kernel, fecha de compilación y arquitectura del procesador (32 o 64 bits).
+whoami muestra: el nombre del usuario que está ejecutando la terminal en ese momento.
+
+¿Por qué es útil conocer esta información al administrar un servidor?
+Cuando administras un servidor necesitas saber exactamente en qué entorno estás trabajando. Conocer el sistema operativo y su versión te permite instalar las versiones correctas de los programas y evitar errores de compatibilidad. Saber la arquitectura del procesador es clave para descargar los paquetes adecuados. Conocer el usuario activo con whoami te indica qué permisos tienes, lo cual es fundamental en seguridad, porque un servidor mal configurado donde cualquier usuario puede ejecutar cualquier comando es un riesgo grave. En conjunto, estos dos comandos son los primeros que se ejecutan al conectarse a un servidor nuevo para orientarse y trabajar con seguridad.

@@ -1,0 +1,5 @@
+Tres prácticas básicas de seguridad digital:
+
+1. Activar la verificación en dos pasos en las cuentas importantes, para añadir una capa extra de seguridad al iniciar sesión.
+2. Evitar conectarse a redes Wi-Fi públicas para realizar actividades sensibles como transacciones o ingreso a cuentas personales.
+3. Revisar periódicamente los permisos de las aplicaciones y servicios digitales, asegurando que solo tengan acceso a la información necesaria.

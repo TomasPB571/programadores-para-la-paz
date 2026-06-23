@@ -1,0 +1,9 @@
+- Validar siempre los datos que envían los usuarios antes de procesarlos.
+
+- Mantener el servidor y sus dependencias actualizados para evitar vulnerabilidades conocidas.
+
+- Configurar límites de peticiones para evitar que un solo usuario sature el sistema.
+
+- Hacer copias de seguridad periódicas de la información registrada por la comunidad.
+
+- Mostrar mensajes de error genéricos al usuario sin revelar detalles internos del servidor.
