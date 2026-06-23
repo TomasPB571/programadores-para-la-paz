@@ -1,0 +1,17 @@
+200 OK — El servidor recibió la petición sin errores. Es el código de estado HTTP que significa "todo salió bien".
+72 ms — El servidor respondió en 72 milisegundos. Una velocidad muy rápida.
+307 B — El tamaño de la respuesta fue de 307 bytes, algo muy liviano.
+
+El cuerpo de la respuesta (Body):
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+estado: "Datos recibidos" (Este es el mensaje programado en el servidor para confirmar que la información llegó correctamente)
+nombre: "Maria" (El servidor tomó el dato que se envió en postman y lo devolvió de vuelta)
+mensaje: "Hola comunidad" (Igual, el servidor "leyó" este campo y lo incluyó en la respuesta)
+
+
+En resumen: Se enviaron datos al servidor con POST, el servidor los recibió, los procesó y los devolvió como confirmación. Demostramos así el funcionamiento de una API REST básica. ✅

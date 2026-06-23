@@ -1,0 +1,14 @@
+¿Qué hace esta nueva ruta /incidencia?
+Recibe dos datos del ciudadano:
+
+tipo: La categoría del problema (agua, luz, basura, etc.)
+descripcion: El detalle de lo que está pasando
+
+Y responde confirmando que la incidencia quedó registrada.
+
+Ejemplo de JSON para mandar con el método POST
+
+{
+  "tipo": "Acumulación de basura",
+  "descripcion": "Hay bolsas de basura acumuladas en la esquina de la carrera 5 con calle 12 desde el lunes."
+}
