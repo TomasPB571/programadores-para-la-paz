@@ -1,0 +1,41 @@
+Esta ruta permite consultar todos los reportes que han sido registrados en el servidor. A diferencia del método POST que envía datos, el método GET los solicita y el servidor responde con la lista completa de incidencias almacenadas.
+
+Primera consulta a un reporte registrado
+Respuesta del servidor: 200 OK · 7ms · 314B
+json:
+[
+    {
+        "id": 1,
+        "tipo": "Infraestructura",
+        "descripcion": "Daño en alumbrado público"
+    }
+]
+
+id: 1  El servidor asignó automáticamente un identificador único a este reporte.
+tipo: "Infraestructura"  Categoría del problema enviada por el ciudadano.
+descripcion: El detalle específico de la incidencia reportada.
+El servidor respondió en solo 7ms con un peso de 314 bytes, lo que indica que el sistema es liviano y eficiente.
+
+
+Segunda consulta a dos reportes registrados
+Respuesta del servidor: 200 OK · 7ms · 409B
+json:
+[
+    {
+        "id": 1,
+        "tipo": "Infraestructura",
+        "descripcion": "Daño en alumbrado público"
+    },
+    {
+        "id": 2,
+        "tipo": "Ambiente",
+        "descripcion": "Mala disposición final de escombros en obra civil"
+    }
+]
+
+El servidor ahora devuelve dos objetos dentro del arreglo, uno por cada incidencia registrada.
+El segundo reporte recibió id: 2 de forma automática, lo que muestra que el sistema lleva un conteo ordenado de los registros.
+El peso aumentó de 314B a 409B porque la respuesta ahora contiene más información, pero la velocidad se mantuvo igual en 7ms.
+
+
+En resumen: cada vez que un ciudadano envía un reporte con POST, el servidor lo guarda y le asigna un ID. Al consultar con GET, el servidor devuelve todos los reportes acumulados en orden. Así es como funciona un sistema básico de registro de incidencias comunitarias. ✅
