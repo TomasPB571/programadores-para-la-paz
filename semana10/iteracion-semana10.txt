@@ -1,0 +1,16 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+
+1. Implementar el registro de reportes ciudadanos.
+Configurar las notificaciones en Telegram para nuevos reportes.
+
+2. ¿Por qué son las más importantes?
+Porque el registro de reportes es la función principal de la plataforma y las notificaciones permiten que el equipo conozca rápidamente cada nuevo caso para darle seguimiento.
+
+3. ¿Qué significa para ti que una tarea esté "terminada"?
+Significa que cumple su objetivo, funciona correctamente y está lista para ser utilizada.
+
+Definición de terminado:
+
+Cumple con todos los requisitos solicitados.
+Fue revisada y aprobada por el equipo.
+Está integrada correctamente con el resto del proyecto sin generar errores.

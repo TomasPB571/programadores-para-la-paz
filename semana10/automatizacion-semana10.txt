@@ -1,0 +1,8 @@
+Evento que activa el flujo:
+Se cambia el estado de una solicitud a "Pendiente de revisión".
+
+Mensaje que se enviaría a Telegram:
+"Hay una solicitud pendiente de revisión. Ingresa al sistema para validarla."
+
+¿Qué información no debería enviarse por seguridad?
+No se deben enviar correos electrónicos, archivos adjuntos, ubicaciones exactas, contraseñas ni cualquier información personal del ciudadano.
