@@ -1,0 +1,27 @@
+Entidad: Reporte Comunitario
+
+Campos principales:
+
+id
+titulo
+descripcion
+categoria
+ubicacion
+fecha_reporte
+estado
+
+Propósito:
+Registrar los reportes realizados por la comunidad sobre problemas o situaciones que requieren atención, permitiendo hacer seguimiento a su estado.
+
+Entidad: Usuario
+
+Campos principales:
+
+id
+nombre
+correo
+telefono
+rol
+
+Propósito:
+Almacenar la información básica de las personas que utilizan la plataforma para identificar quién realiza los reportes y facilitar la comunicación con la comunidad.
