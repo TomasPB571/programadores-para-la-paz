@@ -1,0 +1,9 @@
+1. El ciudadano ingresa a la plataforma y completa un formulario con la información de su petición.
+
+2. El sistema valida los datos y publica la petición para que sea visible a otros usuarios.
+
+3. Los ciudadanos interesados leen la petición y pueden brindar su apoyo con un solo clic
+
+4. La plataforma actualiza automáticamente el número de apoyos y muestra el progreso de la petición.
+
+5. Cuando la petición alcanza el objetivo establecido, el sistema prepara un informe con la información recopilada para ser enviado a la entidad correspondiente.

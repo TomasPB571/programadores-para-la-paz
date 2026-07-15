@@ -1,0 +1,5 @@
+Evento: Una petición alcanza la cantidad mínima de apoyos establecida.
+
+Mensaje: "La petición ha alcanzado el número de apoyos requerido y está lista para su revisión."
+
+Información que no debe enviarse: Nombres completos de los ciudadanos, números de identificación, correos electrónicos, teléfonos ni cualquier otro dato personal o confidencial de los participantes.

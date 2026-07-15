@@ -1,0 +1,20 @@
+Entidad: Petición
+
+id
+asunto
+detalle
+fecha_creacion
+estado
+
+¿Para qué sirve?
+Almacena la información principal de cada petición creada por un ciudadano, incluyendo su contenido y el estado en el que se encuentra.
+
+Entidad: Respaldo
+
+id
+peticion_id
+ciudadano
+fecha_respaldo
+
+¿Para qué sirve?
+Registra cada apoyo realizado por los ciudadanos a una petición y permite relacionarlo con la petición correspondiente para llevar el conteo de respaldos.
